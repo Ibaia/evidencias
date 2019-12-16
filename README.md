@@ -68,3 +68,26 @@ Clicando en actions:
 
 * Rellenar los datos y crear el subdominio apuntando a la IpElastica.
 ![](tarea3/CrearElRegistro.jpg)
+
+### Virtual host
+
+* Copia el 000-default.conf con el mnombre que desees que el comando `sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/servidor.conf`
+![](tarea4/CopiarElbase.jpg)
+
+* modificas el archivo que acabas de crear con la configuración deseada
+![](tarea4/modificar.jpg)
+
+* Virtual host servidor: 
+![](tarea4/VirtualHost.jpg)
+
+* Añadirlo al apache con el comando `sudo a2ensite cliente.conf`
+![](tarea4/meterloComoEnable.jpg)
+
+* Reiniciar el servidor tras modificar el virtualHost:
+![](tarea4/ReiniciarApache.jpg)
+
+* Vista cliente:
+![](tarea4/cliente.jpg)
+
+* Vista servidor:
+![](tarea4/Servidor.jpg)
