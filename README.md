@@ -91,3 +91,29 @@ Clicando en actions:
 
 * Vista servidor:
 ![](tarea4/Servidor.jpg)
+
+### FTP
+
+* Se instala con el comando `sudo apt-get install vsftpd`:
+![](tarea5/instalar.jpg)
+
+* Se inicia el servicio y lo activas:
+![](tarea5/iniciar.jpg)
+![](tarea5/iniciar2.jpg)
+
+* creas una copia del archivo de configuacion :
+![](tarea5/CopiaParaModificar.jpg)
+
+* Accedes al archivo original con el comando`sudo nano /etc/vsftpd.conf` y añades las siguientes filas y guardas:
+![](tarea5/vsftpd.conf.jpg)
+
+* Añadir el protocolo ftp al servidor:
+![](tarea5/puertoFTP.jpg)
+
+* Crear usuario con `sudo  useradd -g ftp -d /var/www/carpeta deseada/ -c "Tipo usuario" usuario` y compurebas que exista:
+![](tarea5/crearElUsuario.jpg)
+![](tarea5/verificarElusuario.jpg)
+
+* Reinicias:
+![](tarea5/restart.jpg)
+
