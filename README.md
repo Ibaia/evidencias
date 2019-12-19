@@ -117,3 +117,18 @@ Clicando en actions:
 * Reinicias:
 ![](tarea5/restart.jpg)
 
+
+### TAREA 6
+
+* Se comprime y comporbar que se ha comprimido
+![](tarea6/Comprimirycomprobacon.jpg)
+
+
+* Crear la base de datos
+![](tarea6/crearBBDD.jpg)
+
+* Pasar la base de datos a archivo .sql 
+![](tarea6/crearArchivoSql.jpg)
+
+* Comprobacion del dump de la BBDD
+![](tarea6/comprobacion.jpg)
