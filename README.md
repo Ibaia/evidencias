@@ -132,3 +132,10 @@ Clicando en actions:
 
 * Comprobacion del dump de la BBDD
 ![](tarea6/comprobacion.jpg)
+
+
+### TAREA 7
+
+* se crea una carpeta en la que guardas los backups;
+
+* Creas el PHP para ejecutar 
