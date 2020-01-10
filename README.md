@@ -136,6 +136,18 @@ Clicando en actions:
 
 ### TAREA 7
 
-* se crea una carpeta en la que guardas los backups;
+* se crea una carpeta en la que guardas los backups:
 
-* Creas el PHP para ejecutar 
+
+* Creas el PHP para ejecutar apuntando al .sh:
+![](tarea7/crearElArchivo.jpg)
+![](tarea7/shScript.jpg)
+
+* Crear el script .sh:
+![](tarea7/shScript.jpg)
+
+* Cambiar usuarios:
+![](tarea7/cambiarUsuario.jpg)
+
+* Comprobar que todo funciona:
+![](tarea7/comprobacionfinal.jpg)
